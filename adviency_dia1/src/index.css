@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Mountains of Christmas';
+  line-height: 24px;
+  font-weight: 400;
+  background-color: rgb(6 95 70);
+  color: rgba(255, 255, 255, 0.87);
+}
+
+body {
+  display: flex;
+  /*place-items: center;*/
+  min-width: 320px;
+  min-height: 100vh;
+}
+  
+h1 {
+  font-size: 4.5em;
+  line-height: 1.1;
+  font-weight: 700;
+  color: rgb(127 29 29);
+}
+
+li {
+  font-size: 1.5em;
+  font-family: 'Mountains of Christmas';
+}

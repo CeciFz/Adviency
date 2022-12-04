@@ -89,7 +89,7 @@ li{
 }
 
 .regalo::before{
-  content: "";
+  content: ""; 
   position:absolute;
   background-color: darkmagenta;
   width: 20px;
